@@ -1,5 +1,8 @@
-public class HelloApp {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
+
+git checkout -b feature/UC1-display-hello
+cat > HelloApp.java
+javac HelloApp.java
+java HelloApp
+git add HelloApp.java
+git commit -m "UC1: Display Hello World"
+
